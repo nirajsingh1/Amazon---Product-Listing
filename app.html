@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <style>
+        
+        iframe {
+            border: none; 
+        }
+
+        .product-card {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            max-width: 60%;
+            max-height: 40%;
+            margin: 20px;
+        }
+
+        
+        .product-photo {
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .product-photo img {
+            width: 240px;
+            height: 300px;
+            margin-left: 100px;
+        }
+
+       
+        .product-info {
+            flex: 1;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        .product-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 16px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <iframe src="header.html" width="100%" height="100"></iframe>
+    <div class="container">
+        <div class="filters">
+            <div class="filter-category">
+                <p>Category:</p>
+                <a href="electronic.html">Electronics</a><br>
+                <a href="book.html">Books</a><br>
+                <a href="clothe.html">Clothes</a><br>
+		<a href="app.html">Home Appliances</a><br>
+                
+            </div>
+            <div class="filter-category">
+                <p>Price:</p>
+                <a href="#price-all">All</a><br>
+                <a href="#price-under-500">Under ₹500</a><br>
+                <a href="#price-500-1000">₹500 to ₹1,000</a><br>
+                <a href="#price-1000-2000">₹1,000 to ₹2,000</a><br>
+                <a href="#price-2000-5000">₹2,000 to ₹5,000</a><br>
+                <a href="#price-5000-above">₹5,000 and Above</a><br>
+            </div>
+        </div>
+
+       
+    <div class="product-card">
+      
+        <div class="product-photo">
+            <img src="ap1.jpg" alt="Product Photo">
+        </div>
+
+       
+        <div class="product-info">
+            <div class="product-description">COSORI Air Fryer for home 4.7 Liter, 1500W Fast Cooking, 9 Preset Menu, 30 Recipes Cookbook, Grill, Broil, Roast, Toast, Bake, Reheat, Defrost, Digital Touch Panel, 75~230℃, Quiet, L501 Grey</div>
+            <div class="product-price">2000Rs</div>
+        </div>
+    </div>
+
+</div>
+
+<div class="product-card" style="margin-left:261px;">
+        
+        <div class="product-photo">
+            <img src="app2.jpg" alt="Product Photo">
+        </div>
+
+       
+        <div class="product-info">
+            <div class="product-description">Prestige 500 Watts Orion Mixer Grinder with 3 Stainless Steel Jars |2 years warranty| Red & White</div>
+            <div class="product-price">2500Rs</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

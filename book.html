@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <style>
+        
+        iframe {
+            border: none; /* or border: 0; */
+            /* Adjust height as needed */
+        }
+
+        .product-card {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            max-width: 60%;
+            max-height: 40%;
+            margin: 20px;
+        }
+
+
+        .product-photo {
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .product-photo img {
+            width: 240px;
+            height: 300px;
+            margin-left: 100px;
+        }
+
+
+        .product-info {
+            flex: 1;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        .product-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 16px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+
+    <iframe src="header.html" width="100%" height="100"></iframe>
+    <div class="container">
+        <div class="filters">
+            <div class="filter-category">
+                <p>Category:</p>
+                <a href="electronic.html">Electronics</a><br>
+                <a href="book.html">Books</a><br>
+                <a href="clothe.html">Clothes</a><br>
+		<a href="app.html">Home Appliances</a><br>
+		
+                
+            </div>
+            <div class="filter-category">
+                <p>Price:</p>
+                <a href="#price-all">All</a><br>
+                <a href="#price-under-500">Under ₹500</a><br>
+                <a href="#price-500-1000">₹500 to ₹1,000</a><br>
+                <a href="#price-1000-2000">₹1,000 to ₹2,000</a><br>
+                <a href="#price-2000-5000">₹2,000 to ₹5,000</a><br>
+                <a href="#price-5000-above">₹5,000 and Above</a><br>
+            </div>
+        </div>
+
+       
+    <div class="product-card">
+       
+        <div class="product-photo">
+            <img src="book1.jpg" alt="Product Photo">
+        </div>
+
+
+        <div class="product-info">
+            <div class="product-description">HOW TO WIN FRIENDS AND INFLUENCE PEOPLE</div>
+            <div class="product-price">559Rs</div>
+	    <h6>How to Win Friends and Influence People by bestselling author Dale Carnegie gives you time-tested advice and simple techniques on how to deal with people, understand them and get along with them. This book tells you how to: ? Improve your conversation skills ? Avoid arguments and win people over ? Make friends easily ? Become a people person A phenomenal success that has sold millions of copies worldwide, this book will change the way you approach relationships and better equip you to handle life?s situations.</h6>
+        </div>
+    </div>
+
+</div>
+
+<div class="product-card" style="margin-left:261px;">
+     
+        <div class="product-photo">
+            <img src="book2.jpg" alt="Product Photo">
+        </div>
+
+       
+        <div class="product-info">
+            <div class="product-description">The Theory Of Everything Paperback – 25 September 2006
+by Stephen Hawking (Author)</div>
+            <div class="product-price">1000Rs</div>
+        </div>
+    </div>
+
+
+</body>
+</html>
